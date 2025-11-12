@@ -14,6 +14,8 @@
     "next": "16.0.1",
     "react": "19.2.0",
     "react-dom": "19.2.0",
+    "react-email": "^5.0.1",
+    "resend": "^6.4.2",
     "zod": "^4.1.12"
   },
   "devDependencies": {
