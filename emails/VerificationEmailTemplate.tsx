@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import * as React from 'react';
+import Head from "next/head";
+import * as React from "react";
 
 interface EmailTemplateProps {
   username: string;
@@ -61,20 +61,20 @@ const VerificationEmailTemplate = ({ username, otp }: EmailTemplateProps) => {
                             </tr>
                           </tbody>
                         </table>
-                        
+
                         <p className="text-base leading-[26px] text-gray-600 my-4">
                           This code will expire in 10 minutes. If you did not
                           request this, please ignore this email.
                         </p>
                       </td>
                     </tr>
-                    
+
                     <tr>
                       <td className="px-[30px]">
                         <div className="border-t border-solid border-gray-200 my-5"></div>
                       </td>
                     </tr>
-                    
+
                     <tr>
                       <td className="px-[30px] pb-[30px] text-center">
                         <p className="text-xs text-gray-500 leading-normal mb-1">
@@ -95,6 +95,6 @@ const VerificationEmailTemplate = ({ username, otp }: EmailTemplateProps) => {
       </body>
     </html>
   );
-}
+};
 
 export default VerificationEmailTemplate;
