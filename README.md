@@ -1,8 +1,8 @@
-# True-FeedBack Project Documentation
+# The Insight Box Project Documentation
 
 ## Project Overview
 
-True-FeedBack is a Next.js-based web application that provides an anonymous feedback system. Users can sign up, verify their email, and receive anonymous messages. The application leverages modern web technologies for a seamless user experience, including authentication, email verification, and database integration.
+The Insight Box is a Next.js-based web application that provides an anonymous feedback system. Users can sign up, verify their email, and receive anonymous messages. The application leverages modern web technologies for a seamless user experience, including authentication, email verification, and database integration.
 
 ### Key Features
 - User registration and email verification
