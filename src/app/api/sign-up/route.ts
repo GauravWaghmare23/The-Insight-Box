@@ -62,6 +62,7 @@ export async function POST(request: Request) {
         );
 
         if (!emailResponse.success) {
+            console.error(emailResponse.message);
             return Response.json(
                 { success: false, message: emailResponse.message },
                 { status: 400 }
